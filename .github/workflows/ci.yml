@@ -1,6 +1,6 @@
 --
 name: Testes End-To-End BugBank
-on: [ push ,workflow_dispatch ]
+on: push
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
